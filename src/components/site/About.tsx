@@ -5,7 +5,7 @@ import {
   useTransform,
   type MotionValue,
 } from "motion/react";
-import portrait from "@/assets/dhruvi-portrait.jpg";
+import portrait from "@/assets/dhruvi-portrait.jpeg";
 
 /* ─────────────────────────── content ─────────────────────────── */
 
