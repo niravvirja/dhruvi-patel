@@ -190,8 +190,8 @@ export function About() {
         >
           <div className="rounded-full p-[10px] ring-1 ring-ink/10">
             <div
-              className="rounded-full p-[3px]"
-              style={{ border: "1px solid var(--accent-brand)" }}
+              className="rounded-full p-[5px]"
+              style={{ border: "2px solid var(--accent-brand)" }}
             >
               <img
                 src={portrait}
@@ -199,7 +199,7 @@ export function About() {
                 width={1024}
                 height={1280}
                 loading="lazy"
-                className="size-[120px] rounded-full object-cover object-top sm:size-[136px]"
+                className="size-[120px] rounded-full object-cover object-center sm:size-[136px]"
               />
             </div>
           </div>

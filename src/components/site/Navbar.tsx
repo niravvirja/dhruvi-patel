@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { motion } from "motion/react";
 import { ArrowUpRight, List, X } from "@phosphor-icons/react";
-import logoSage from "@/assets/logo-sage.png";
+import logoSage from "@/assets/logo-mark.png";
 import { RollingLabel } from "./RollingLabel";
 import { MobileCurtain, type NavItem } from "./MobileCurtain";
 
@@ -37,20 +37,15 @@ export function Navbar() {
           style={{ backgroundColor: "var(--accent-brand)" }}
         >
           {/* Logo pill */}
-          <a
-            href="#home"
-            aria-label="Dhruvi Patel — home"
-            className="inline-flex h-10 items-center justify-center gap-2 rounded-full border border-paper/35 bg-paper px-3 transition-colors duration-300 sm:px-4"
-          >
             <img
               src={logoSage}
               alt=""
               width={28}
               height={28}
               loading="eager"
-              className="h-7 w-7 object-contain"
+              className="h-7 w-7 object-contain relative md:left-7"
             />
-          </a>
+            
 
           {/* Desktop links — centered */}
           <nav className="absolute left-1/2 hidden -translate-x-1/2 items-center gap-1 lg:flex">
